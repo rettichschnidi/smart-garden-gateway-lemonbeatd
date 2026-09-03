@@ -6,7 +6,8 @@
 //!
 //! See LICENSE.tokio for licensing information.
 //!
-//! See the git log for the exact revision that this is based on.
+//! Source: https://raw.githubusercontent.com/tokio-rs/tokio/8198ef38814c45f9dc02fcbf826225b5cf32a6bb/tokio-util/src/udp/frame.rs
+//!
 //! We moved away from AsyncFd due to a [bug](https://github.com/tokio-rs/tokio/issues/4349)
 //! that prevents reacting on polling errors.
 
